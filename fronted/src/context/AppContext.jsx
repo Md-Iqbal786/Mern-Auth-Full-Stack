@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 export const AppContextProvider = (props) => {
   const backendUrl =
-    import.meta.env.VITE_BACKEND_URL || "http://localhost:3008";
+    import.meta.env.VITE_BACKEND_URL || "https://mern-auth-full-stack-z6ha.onrender.com";
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [userData, setUserData] = useState(false);
 
