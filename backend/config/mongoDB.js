@@ -7,7 +7,7 @@ const connectDB = async ()=>{
     mongoose.connection.on('connected' , ()=>{
         console.log("DataBase Connected ");
     })
-    await mongoose.connect("mongodb://127.0.0.1:27017/mern-auth");
+    await mongoose.connect("mongodb+srv://mriqbal104786_db_user:jIpGGRDO2X4nkxXq@cluster0.ka9tzkp.mongodb.net/");
 }
 
 export default connectDB;
