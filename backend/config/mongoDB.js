@@ -10,7 +10,7 @@ const connectDB = async () => {
       console.error("MongoDB connection error:", err);
     });
 
-    const mongoURI = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/mern-auth";
+    const mongoURI = process.env.MONGO_URI || "mongodb+srv://mriqbal104786_db_user:jIpGGRDO2X4nkxXq@cluster0.ka9tzkp.mongodb.net/";
     await mongoose.connect(mongoURI);
   } catch (error) {
     console.error("Failed to connect to database:", error.message);
