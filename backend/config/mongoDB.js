@@ -10,7 +10,7 @@ const connectDB = async () => {
       console.error("MongoDB connection error:", err);
     });
 
-    const mongoURI = process.env.MONGO_URI || "mongodb+srv://mriqbal104786_db_user:jIpGGRDO2X4nkxXq@cluster0.ka9tzkp.mongodb.net/";
+    const mongoURI = process.env.MONGO_URI || "mongodb+srv://Iqbal_Zcode:Iqbal%40786@octadb.e1ee9en.mongodb.net/?appName=OctaDB";
     await mongoose.connect(mongoURI);
   } catch (error) {
     console.error("Failed to connect to database:", error.message);
